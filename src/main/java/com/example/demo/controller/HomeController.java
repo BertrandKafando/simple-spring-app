@@ -8,6 +8,6 @@ public class HomeController {
     
     @GetMapping("/")
     public String home() {
-        return "Congrats! You have successfully deployed your Spring Boot application to Azure App Service";
+        return "Congrats!You have successfully deployed your Spring Boot application to Azure App Service";
     }
 }
